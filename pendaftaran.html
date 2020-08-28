@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Pendaftaran</title>
+</head>
+<body>
+    <h1>Pendaftaran Hacktiv8 2020</h1>
+    <form action="thankyou.html">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <p>
+                <label for="namaLengkap">Nama Lengkap</label>
+                <input id="namaLengkap" name="namaLengkap" type="text" required>
+            </p> 
+            <p>
+                <label for="alamat">Alamat</label>
+                <input id="alamat" name="alamat" type="text" required>
+            </p>
+            <p>
+                <label for="kota">Kota</label>
+                <input type="text" name ="kota" list ="kota">
+                <datalist id="kotaAsal">
+                    <select name="pilihanKotaAsal">
+                        <option value="jakarta"> Jakarta Utara</option>
+                        <option value="bandung"> Jakarta Selatan</option>
+                        <option value="surabaya"> Jakarta Barat</option>
+                        <option value="surabaya"> Jakarta Timur</option>
+                    </select>
+                </datalist>
+            </p>
+            <p>
+                <label for="gender"> Gender </label>
+                <input id="male-radio" type="radio" name="gender" value="male">
+                <label for="male-radio">Male</label>
+                <input id="female-radio" type="radio" name="gender" value="female">
+                <label for="female-radio">Female</label>
+            </p>
+            <p>
+                <label for="pendidikan"> Pendidikan </label>
+                <input id="smp" type="radio" name="pendidikan" value="smp">
+                <label for="smp">SMP</label>
+                <input id="sma" type="radio" name="pendidikan" value="sma">
+                <label for="sma">SMA</label>
+                <input id="kuliah" type="radio" name="pendidikan" value="kuliah">
+                <label for="kuliah">SMA</label>
+            </p>
+        </fieldset>
+        <input type="submit" value="kirim">
+    </form> 
+    
+
+</body>
+</html>
+ 
